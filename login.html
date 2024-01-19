@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Login page </title>
+        <title> Sign up </title>
         <link rel="icon" type="image/x-icon" href=".\images\account.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="style.css">
@@ -10,8 +10,20 @@
         <div class="content">
             <img src=".\images\password.png" alt="account">
                  <form>
-                    <div class ="text">Login</div>
+                    <div class ="text">Sign Up</div>
                     <div class="field">
+                        <span class="fa fa-user"></span>
+                        <input type="text" required>
+                        <label>name</label>
+                      </div>
+                      <br/>
+                          <div class="field">
+                          <span class="fa fa-user"></span>
+                          <input type="text" required>
+                          <label>user name</label>
+                        </div>
+                        <br/>
+                        <div class="field">
                         <span class="fa fa-user"></span>
                         <input type="text" required>
                         <label>Email Id</label>
@@ -22,7 +34,13 @@
                         <input type="password">
                         <label>Password</label>
                       </div>
-                      <button >Log in</button>
+                      <br/>
+                      <div class="field">
+                        <span class="fa fa-lock"></span>
+                        <input type="password">
+                        <label> confirm Password</label>
+                      </div>
+                      <button >Next</button>
                  </form>
              </div>
             <div class="slider-thumb"></div>
@@ -30,7 +48,7 @@
     <footer>
         <div>
             <p class="text">
-                A demo of neuomorphism with animated blob 👻 by vijeta
+                A demo of animated blob 👻 by vijeta
             </p>
         </div>
     </footer>
